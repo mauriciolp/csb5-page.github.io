@@ -101,7 +101,8 @@
 }
 
 .logo__image {
-  max-height: 50px;
+  margin-top: 20px;
+  max-height: 55px;
 
   @media (max-width: $tablet) {
     max-height: 45px;
@@ -221,7 +222,7 @@
 
     .nav__link {
       position: relative;
-      font-size: 18px;
+      font-size: 22px;
       line-height: 1;
       font-weight: 600;
       will-change: transform;
@@ -230,6 +231,10 @@
       text-underline-offset: 4px;
       text-decoration-color: transparent;
       transition: all .2s ease;
+
+      @media (max-width: $mobile) {
+        font-size: 18px;
+      }
 
       &.active-link {
         text-decoration-color: var(--link-color);

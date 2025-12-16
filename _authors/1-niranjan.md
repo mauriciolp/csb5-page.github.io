@@ -1,8 +1,10 @@
 ---
 username: niranjan
+title: Niranjan
+permalink: /niranjan
 name: Niranjan Nagarajan
 nick_name: Niranjan
-position: Principal Investigator
+position: NRF Investigator
 email: nagarajann@a-star.edu.sg
 image: 'https://pbs.twimg.com/profile_images/492209283371520000/XGi7L_94_400x400.jpeg'
 X: https://x.com/NiranjanTW
@@ -11,12 +13,12 @@ linkedin: https://www.linkedin.com/in/niranjan-nagarajan-765151ba/
 scholar:  https://scholar.google.com/citations?user=s65iHisAAAAJ&hl=en&oi=ao
 ---
 
-**NRF Investigator; Associate Professor (Biochemistry, Yong Loo Lin School of Medicine, NUS); Associate Director (Genome Institute of Singapore, A*STAR)**
+<h4>
+Associate Professor, Yong Loo Lin School of Medicine, NUS <br> Associate Director, Genome Institute of Singapore, A*STAR </h4>
 
-<br/>
 
 **PhD** &nbsp;&nbsp; / &nbsp;&nbsp; Cornell University<br>
-**MSc** &nbsp;&nbsp; / &nbsp;&nbsp;Cornell University<br>
+**MSc** &nbsp;&nbsp; / &nbsp;&nbsp; Cornell University<br>
 **BA** &nbsp;&nbsp; / &nbsp;&nbsp;  Ohio Wesleyan University
 
 <br/>

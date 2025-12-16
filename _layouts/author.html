@@ -7,7 +7,7 @@ layout: default
   {% assign post_count = site.posts | where: 'author', page.username %}
 
 
-  <div class="post-head{{videoPost}}">
+  <div class="author-head">
   <div class="author__content">
   <div class="container">
     <div class="row">
@@ -18,24 +18,22 @@ layout: default
           {% if page.tags.size >= 1 %}
           <div class="post__tags">
             {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}/research#{{ tag }}" class="post__tag">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}
 
           <h1 class="author__name">{{ page.name | escape }}</h1>
+          <div class="author__position">
           {% if page.position %}
               <h2>{{ page.position }}</h2>
           {% endif %}
           {% if page.next_position %}
               <p><b>Next position</b>: {{ page.next_position }}</p>
           {% endif %}
+          </div>
 
-          
-          
-
-          
-          <p class="post__description">{{ content }}</p>
+          <div class="author__description">{{ content }}</div>
 
 
           <div class="author__info">
@@ -79,7 +77,7 @@ layout: default
 
       {%if page.image_fun %}
       <div class="col col-5 push-1 col-d-12 push-d-0">
-        <div class="post-image">
+        <div class="author-image">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image_fun}}" alt="{{page.title}}">
         </div>
         {% if page.image_caption %}
@@ -99,9 +97,6 @@ layout: default
 
     </div>
   </div>
-  </div>
-  </div>
-
   <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
     {% if post_count.size > 0 %}
       {% if page.nick_name %}
@@ -111,6 +106,10 @@ layout: default
       {% endif %}
     {% endif %}
   </div>
+  </div>
+  </div>
+
+  
 
   <div class="container animate">
     <div class="row">
